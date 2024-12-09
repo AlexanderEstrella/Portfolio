@@ -177,7 +177,9 @@ button, a {
 
 .left-content, .right-content {
   flex: 1;
+  
 }
+
 
 .left-content {
   max-width: 50%;
@@ -207,6 +209,7 @@ button, a {
 
 /* Profile Circle */
 .profile-circle {
+  margin: 0 auto;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -528,6 +531,13 @@ button, a {
     gap: 20px;
   }
 
+  .skills-title {
+    text-align: center;
+  }
+  .skill-card {
+    text-align: center;
+  }
+
   .card h3 {
     font-size: 1.3rem;
   }
@@ -550,6 +560,13 @@ button, a {
 
   .btn-primary {
     padding: 0.5rem 1rem;
+  }
+  .footer-stats {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
 }
 

@@ -10,6 +10,7 @@ import { animated } from "react-spring";
 const Home = () => {
   const [name, setName] = useState("");
   const [title, setTitle] = useState("|");
+  const [fade, setFade] =  useState(false);
 
   useEffect(() => {
     shiftName();
@@ -56,6 +57,7 @@ const Home = () => {
     <section id="home" className="home-section">
      
       <div className="left-content">
+        <span> <strong> Hi, </strong></span>
         <animated.h2 className="subheading">{name}</animated.h2>
         <animated.h3 className="subsubheading">{title}</animated.h3>
         <p className="description">
