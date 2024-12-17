@@ -15,6 +15,13 @@ const Data = [
   },
   {
     id: 3,
+    title: "Mingo Wraps",
+    link: "https://mingowraps.com/",
+    description: "Website design for Local wrapping business in Orlando, FL",
+    image: "images/mingowraps.png",
+  },
+  {
+    id: 4,
     title: "Financial Planner",
     link: "https://financialplanner-01a6fab8d08a.herokuapp.com/",
     description: "Financial Planner that provides user with a interactive UI",
@@ -22,7 +29,7 @@ const Data = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Weather App",
     link: "https://alexanderestrella.github.io/Weather-API/",
     description:
@@ -30,7 +37,7 @@ const Data = [
     image: "images/weatherimg.PNG",
   },
   {
-    id: 5,
+    id: 6,
     title: "Adventurer Alex",
     link: "https://adventureralex-32acd199831b.herokuapp.com/",
     description: "Coming Soon - Personal blog of experiences while traveling",
@@ -38,7 +45,7 @@ const Data = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Portfolio",
     link: "www.alexanderse.dev",
     description: "The portfolio application is designed to highlight my skills",

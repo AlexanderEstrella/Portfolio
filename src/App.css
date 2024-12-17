@@ -432,7 +432,7 @@ button, a {
   font-size: var(--font-size-large);
   font-weight: bold;
   margin-bottom: 1rem;
-  color: var(--text-color);
+  color: var(--highlight-color);
 }
 
 .form-label {

@@ -5,7 +5,7 @@ function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMSPREE_ENDPOINT); // Ensure the endpoint is in your .env file
 
   return (
-    <form onSubmit={handleSubmit} className="contact-form">
+    <form onSubmit={handleSubmit} id= "contact" className="contact-form">
       <h2 className="form-heading">Contact Me</h2>
 
       <div className="form-label">
