@@ -358,10 +358,11 @@ button, a {
 }
 
 #projects h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--highlight-color);
   margin-bottom: 40px;
   font-weight: bold;
+  text-align: left;
 }
 
 .card-container {
@@ -515,7 +516,7 @@ button, a {
     grid-template-columns: 1fr;
   }
 
-  #projects h2 {
+  h2 {
     font-size: 2rem;
   }
 
@@ -537,6 +538,12 @@ button, a {
 
   .card p {
     font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  #projects h2 {
+    text-align: center;
   }
   .contact-form {
     padding: 1.5rem;
@@ -585,9 +592,6 @@ button, a {
     font-size: 1rem;
   }
 
-  #projects h2 {
-    font-size: 1.5rem;
-  }
 
   .card-container {
     grid-template-columns: 1fr;
