@@ -419,16 +419,15 @@ button, a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 600px; /* Form will have a max width of 600px */
-  margin: 0 auto; /* Centers the form horizontally */
+  max-width: 600px;
+  margin: 0 auto;
   padding: 2rem;
-  background-color: var(--background-color); /* White background */
-  border-radius: var(--border-radius); /* Rounded corners */
-  box-shadow: var(--box-shadow); /* Adds a subtle shadow */
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
   font-family: var(--font-family);
 }
 
-/* Heading styling */
 .form-heading {
   font-size: var(--font-size-large);
   font-weight: bold;
@@ -436,7 +435,6 @@ button, a {
   color: var(--text-color);
 }
 
-/* Form labels */
 .form-label {
   display: flex;
   flex-direction: column;
@@ -444,30 +442,27 @@ button, a {
   width: 100%;
 }
 
-/* Form label text */
 .form-label label {
   font-size: var(--font-size-base);
   color: var(--text-color);
   margin-bottom: 0.5rem;
 }
 
-/* Form control styling */
 .form-control {
   padding: 0.75rem;
   font-size: var(--font-size-base);
   border: 1px solid #ddd;
-  border-radius: var(--border-radius); /* Rounded corners */
+  border-radius: var(--border-radius);
   width: 100%;
-  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  box-sizing: border-box;
   transition: border-color var(--transition-speed);
 }
 
 .form-control:focus {
-  border-color: var(--highlight-color); /* Highlight border color on focus */
+  border-color: var(--highlight-color);
   outline: none;
 }
 
-/* Button styling */
 .btn-primary {
   background-color: var(--primary-color);
   color: white;
@@ -481,11 +476,10 @@ button, a {
 }
 
 .btn-primary:hover {
-  background-color: var(--highlight-color); /* Highlight color on hover */
-  transform: scale(var(--hover-scale)); /* Slightly enlarge the button on hover */
+  background-color: var(--highlight-color);
+  transform: scale(var(--hover-scale));
 }
 
-/* Success message styling */
 .success-message {
   display: none;
   margin-top: 1rem;
@@ -499,7 +493,6 @@ button, a {
 .success-message.visible {
   display: block;
 }
-
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .home-section {
@@ -549,6 +542,7 @@ button, a {
     padding: 1.5rem;
     max-width: 90%;
   }
+  
 
   .form-heading {
     font-size: var(--font-size-base);
